@@ -2,8 +2,8 @@ import instagrapi
 import os
 import time
 
-username = "velo.bot"
-password = "jojomafia"
+username = "" # enter your instagram username
+password = "" # enter your instagram password
 MIN_LIKES = 1000        # Minimum likes required
 MIN_COMMENTS = 50       # Minimum comments required  
 MIN_VIEWS = 10000       # Minimum views required
@@ -85,4 +85,5 @@ if __name__ == "__main__":
         print("done")
         print("Sleeping for 24 hours...")
         min_in_day = 24 * 60
+
         time.sleep(min_in_day * 60)  # Sleep for 24 hours
